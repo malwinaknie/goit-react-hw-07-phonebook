@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Filter.module.css'
+import PropTypes from 'prop-types';
 
 const Filter = ({ value, onChange }) => (
     <div>
@@ -18,6 +19,15 @@ const Filter = ({ value, onChange }) => (
     </div>
 )
 
-
+Filter.propTypes = {
+    onChange: PropTypes.any,
+    value: PropTypes.any,
+  };
+  
+  Filter.defaultProps = {
+    onChange: () => {},
+    value: '',
+  };
+  
 
 export default Filter;
