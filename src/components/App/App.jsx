@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import ContactForm from "../contact-form/ContactForm.jsx";
-import Filter from "../filter/Filter.jsx";
-import ContactList from "../contact-list/ContactList.jsx";
+import ContactForm from "../contact-form/ContactForm";
+import Filter from "../filter/Filter";
+import ContactList from "../contact-list/ContactList";
 import { nanoid } from "nanoid";
 import styles from "./App.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import { addContact, deleteContact, setFilter, initializeContacts } from '../redux/contactSlice.js'
+import { addContact, deleteContact, setFilter, initializeContacts } from '../redux/contactSlice'
 
 
 function App() {
