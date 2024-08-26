@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from './ContactForm.module.css'
+import styles from '../contact-form/ContactForm.module.css'
 import PropTypes from 'prop-types'
 
 const ContactForm = ({ onSubmit: addContact }) => {

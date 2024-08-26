@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import styles from './ContactList.module.css'
+import styles from '../contact-list/ContactList.module.css'
 
 const ContactList = ({ contacts, deleteContact }) => (
     <ul className={(styles["container"])}>

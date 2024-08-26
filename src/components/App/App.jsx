@@ -3,7 +3,7 @@ import ContactForm from "../contact-form/ContactForm";
 import Filter from "../filter/Filter";
 import ContactList from "../contact-list/ContactList";
 import { nanoid } from "nanoid";
-import styles from "./App.module.css";
+import styles from "../App/App.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { addContact, deleteContact, setFilter, initializeContacts } from '../redux/contactSlice'
 
