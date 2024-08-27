@@ -63,8 +63,5 @@ const handleSubmit = e => {
     onSubmit: PropTypes.func,
   };
   
-  ContactForm.defaultProps = {
-    onSubmit: () => {},
-  };
   
   export default ContactForm;

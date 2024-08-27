@@ -20,10 +20,6 @@ const ContactList = ({ contacts, deleteContact }) => (
     </ul>
   );
 
-  ContactList.defaultProps = {
-    contacts: [],
-    deleteContact: () => {},
-  };
   
   ContactList.propTypes = {
     contacts: PropTypes.arrayOf(

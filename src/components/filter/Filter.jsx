@@ -24,10 +24,5 @@ Filter.propTypes = {
     value: PropTypes.any,
   };
   
-  Filter.defaultProps = {
-    onChange: () => {},
-    value: '',
-  };
-  
 
 export default Filter;
